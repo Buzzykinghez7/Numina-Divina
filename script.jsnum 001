@@ -1,0 +1,26 @@
+document.getElementById('numerology-form').AddEventListener('submit', funtion(e) {
+    e.preventDefault();
+    const birthdate =new Date(docunent.getElementById('birthdate').value);
+    const lifepath =calculateLife(birthdate);
+
+    document.getElementById('result').textcontent = 'your life path number is : ${lifepath'};
+
+});
+
+function calculatedLifepath(birthdate) {
+    Let sum = birthdate.getFullYear() + (birthdate.getMonth() +1) +birthdate.getDate ();
+    while (sum > 9) {
+        sum =sum.tostring().split('').reduce(( acc, num) => acc + parseInt(num), 0);
+    }
+    return sum;
+}
+document.getElementById('ReadmoreBtn').addEventListener('Click', function(){
+    const moreContent = document.getElementById('moreContent');
+    if (moreContent.style.display =='none'){
+        moreContent.style.display = 'block';
+        this.textContent = 'Read Less';// optional: change button text
+    } else {
+        moreContent.style.display = 'none';
+        this.textContent = 'Read More'; // optional : Change button text back
+    }
+});

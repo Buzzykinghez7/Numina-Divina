@@ -1,0 +1,18 @@
+const express = require('express');
+const bodyParser = require('body-parser');
+const app = express();
+const PORT = process.env.PORT || 3000;
+
+app.use(bodyParser.json());
+app.use(express.static('public'));
+
+app.post('/api/bet', (req, res) => {
+    const { stake } = req.body;
+    // Logic to process the bet
+    // Ensure M-Pesa integration and payment verification here
+    res.json({ message: 'Bet placed successfully!', stake });
+});
+
+app.listen(PORT, () => {
+    console.log(`Server is running on http://localhost:${PORT}`);
+});

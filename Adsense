@@ -1,0 +1,16 @@
+<script async src="https://pagead2.googlesyndication .com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="dsiplay:block"
+     data-ad-client="ca-pub-xxxxxxxxxxxxx"
+     data-ad-slot"xxxxxxx"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+     <script>
+        (adsbygoogle = window.adsbygoogle || []).push({}):
+        </script>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="YOUR_BuTTON_ID">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_IG.gif" border="0" name="submit" alt="paypal - The safer,easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>

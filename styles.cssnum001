@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; 
+    padding: 0;
+    background-color: #fofofo;
+
+}
+
+header{
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+section{
+    margin: 2em auto;
+    padding: 1em;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer{
+    textalign: center;
+    padding: 1em;
+    background-color: #4CAF50;
+    color: white;
+    position: fixed;
+    width: 100%
+    bottom 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+input, button {
+    margin: 0,5em 0;
+}
+
+#moreContent {
+    /* Additional styles for content */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: # #007bff; /* button background color */
+    color: white ; /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners  */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transition  0.2s; /* smooth transition */
+}
+/* Hover effect*/
+#ReadmoreBtn:hover {
+    background-color: #0056b3; /* Dar shade for hover */
+    transform: Scale(1.05); /* Slight enlarge button */
+}
+
+/*Optional: Focus effect */
+#ReadMoreBtn: focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 5px #0056b3; /* Add a shadow effect */
+}
